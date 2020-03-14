@@ -1,0 +1,25 @@
+#country_modal .modal-body {
+  display: flex;
+}
+
+#country_modal .card-body h5 {
+  margin-bottom: 0px;
+}
+
+#country_modal .result {
+  padding: 15px 28px 0px;
+  font-size: initial;
+  color: red;
+}
+
+#country_modal .result.success {
+  color: blue;
+}
+
+.list-group-item-action.selected {
+  background: #7367F0 !important;
+}
+
+.list-group-item-action.selected h5 {
+  color: white
+}
